@@ -1,5 +1,5 @@
-# cosmos_test
-Created with CodeSandbox
+# TigerGraph Cosmos Template
+Template for visualizing TigerGraph data with Cosmograph
 
 ## Quickstart
 
@@ -11,8 +11,8 @@ Created with CodeSandbox
 ```
 pip install pyTigerGraph fastapi uvicorn
 ```
-4. Modify the connection parameters to your host, graph name, and password in [main.py](main.py)
-5. Modify the vertex and edge type name for the parameter in `getVertices` and `getEdgesByType` in [main.py](main.py)
+4. Modify the connection parameters to your host, graph name, and password in [config.py](config.py)
+5. Modify the VERTEX_TYPE and EDGE_TYPE in [config.py](config.py)
 6. Run the server
 ```
 uvicorn main:app --reload
@@ -28,6 +28,7 @@ npm install
 npx parcel build index.html
 npx parcel index.html --open
 ```
+9. View the graph at [http://localhost:1234](http://localhost:1234)!
 
 
 ## First Attempt Result:
