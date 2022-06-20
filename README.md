@@ -11,8 +11,8 @@ Created with CodeSandbox
 ```
 pip install pyTigerGraph fastapi uvicorn
 ```
-4. Modify the connection parameters to your host, graph name, and password
-5. Modify the vertex and edge type name for the parameter in `getVertices` and `getEdgesByType`
+4. Modify the connection parameters to your host, graph name, and password in [main.py](main.py)
+5. Modify the vertex and edge type name for the parameter in `getVertices` and `getEdgesByType` in [main.py](main.py)
 6. Run the server
 ```
 uvicorn main:app --reload
