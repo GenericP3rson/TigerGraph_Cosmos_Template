@@ -21,8 +21,7 @@ uvicorn main:app --reload
 ### Run Cosmos
 7. Install packages:
 ```
-npm install parcel-bundler
-npm install @cosmograph/cosmos
+npm install
 ```
 8. Build and run the code:
 ```
